@@ -1,4 +1,6 @@
 package com.example.mydatasiswa.repositori.route
 
-class DestinasiNavigasi {
+interface DestinasiNavigasi {
+    val route: String
+    val titleRes: Int
 }
